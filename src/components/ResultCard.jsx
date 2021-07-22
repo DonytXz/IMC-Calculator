@@ -20,6 +20,8 @@ const ResultCard = (props) => {
     case "dark-red":
       color = "bg-red-700";
       break;
+    default:
+      break;
   }
   return (
     <>

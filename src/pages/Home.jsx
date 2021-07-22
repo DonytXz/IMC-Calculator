@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { data } from "../helpers/Data.js";
 import ResultCard from "../components/ResultCard";
 import HeaderIMC from "../components/HeaderIMC";
+import Search from "../components/Search";
+
 const Home = () => {
   const [flag, setFlag] = useState(true);
   useEffect(() => {
@@ -18,6 +20,7 @@ const Home = () => {
             {!flag &&
               data.map((item, index) => <ResultCard key={index} item={item} />)}
           </div>
+          <Search />
         </div>
       </div>
     </>
