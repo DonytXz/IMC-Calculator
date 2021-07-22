@@ -21,7 +21,7 @@ const Search = () => {
     <>
       <div className="flex flex-col px-4 my-4">
         <label className="text-center mb-2 text-2xl">
-          Introduce tu altura en metros
+          Introduce tu altura en centimetros
         </label>
         <input
           onChange={handleHeight}
